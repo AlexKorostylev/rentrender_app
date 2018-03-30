@@ -40,7 +40,17 @@ The owners of farms can edit information about the services many times, also for
     \t If you have any questions or any problems with our catalog please contact us using e-mail address below. \n\n\t\t\t\t\t\t info@rentrender.com \n\n\t We appreciate your help. \n\t And we'll be glad to get any response from you!</string>
 
     <!-- for Advert activity -->
-    <string name="ad"> \t ADVERTISE ON RENTRENDER.COM! \n\n Interested in placing your ad on RentRender.com? \n It’s a great idea! \n\n\t Please, send request to info@rentrender.com \n\n</string>
+    <string name="ad"> \t <b>ADVERTISE ON RENTRENDER.COM!</b> \n\n Interested in placing your ad on RentRender.com? \n It’s a great idea! \n\n\t Please, send request to info@rentrender.com \n\n</string>
     <string name="wishes">Best wishes, \n The rentrender.com team</string>
+
+    <!-- for EditFarm activity -->
+    <string name="edit_rf_inf">\t For render farm owners only \n\n\t If your are a render farm owner and want to add or edit information about it, your will need to fill out following form below. \n\n\t After validation, we'll send on pointed email address an email with update link. Using that link you will be able to change any data about you render farm. \n The rentrender.com team</string>
+    <string name="owner_mail">Farm owner contact mail</string>
+    <string name="owner_comment">Owner comment about his farm </string>
+    <string name="get_link">Get update link</string>
+
+
+
+
 
 </resources>
