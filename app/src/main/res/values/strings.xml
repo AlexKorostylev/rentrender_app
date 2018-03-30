@@ -1,3 +1,35 @@
 <resources>
+    <!-- Activities names -->
     <string name="app_name">Rentrender</string>
+    <string name="addfarm">Add render farm</string>
+    <string name="about">About us</string>
+
+    <!-- for About us activity -->
+    <string name="about_us">Who we are?</string>
+    <string name="about_us_text">
+\t Dear Reader, we are a small group of enthusiast who interested in render farm services and in whole variety of render-visualization technologies. We have observed render farms industry during the last five years. So now we are ready to present our point of view on this case.</string>
+    <string name="about_mission">Our mission and aims?</string>
+    <string name="about_mission_text"> \t We think that the main key to success is the well-structured information about any issue. In that case our catalog contains structured information only about rendering which is available to any user which wants to understand who is in the global render game.</string>
+    <string name="about_cost">What is the cost?</string>
+    <string name="about_cost_text">
+\t Our service is absolutely free for all users.
+The owners of farms can edit information about the services many times, also for free, to make it accurate and reliable</string>
+    <string name="about_hopes">Our hopes and wishes</string>
+    <string name="about_hopes_text">
+\t Hope that the majority of our visitors will find our resource to be useful and convenient. We wish any project of visualization to find the renderfarm for realization.</string>
+    <string name="signature">
+        With a smile to the world, \n
+        rentrender.com team.</string>
+
+
+    <!-- for Add Render Farm activity -->
+    <string name="owner">
+\t If your are a render farm owner or grateful rentrender.com user who want tell us about new render farm which is absent in our catalog please fill the form below and we will take it into consideration. Thanks in advance!</string>
+    <string name="url">Farm URL like example.com</string>
+    <string name="mail">Farm contact mail</string>
+    <string name="comment">A few words about the farm</string>
+    <string name="add_farm">Add Render Farm</string>
+
+
+
 </resources>
