@@ -1,8 +1,14 @@
 <resources>
     <!-- Activities names -->
     <string name="app_name">Rentrender</string>
-    <string name="addfarm">Add render farm</string>
+    <string name="mainlist">All Render Farm</string>
     <string name="about">About us</string>
+    <string name="addfarm">Add render farm</string>
+    <string name="edit">Edit render farm</string>
+    <string name="contact">Contact us</string>
+    <string name="advert">Advertisement</string>
+
+    <!-- for MainList activity -->
 
     <!-- for About us activity -->
     <string name="about_us">Who we are?</string>
@@ -21,7 +27,6 @@ The owners of farms can edit information about the services many times, also for
         With a smile to the world, \n
         rentrender.com team.</string>
 
-
     <!-- for Add Render Farm activity -->
     <string name="owner">
 \t If your are a render farm owner or grateful rentrender.com user who want tell us about new render farm which is absent in our catalog please fill the form below and we will take it into consideration. Thanks in advance!</string>
@@ -30,6 +35,10 @@ The owners of farms can edit information about the services many times, also for
     <string name="comment">A few words about the farm</string>
     <string name="add_farm">Add Render Farm</string>
 
+    <!-- for Contact us activity -->
+    <string name="contactmail">
+    \t If you have any questions or any problems with our catalog please contact us using e-mail address below. \n\n\t\t\t\t\t\t info@rentrender.com \n\n
+    \t We appreciate your help. \n\t And we'll be glad to get any response from you!</string>
 
 
 </resources>
