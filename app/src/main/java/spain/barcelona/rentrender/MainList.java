@@ -33,4 +33,8 @@ public class MainList extends AppCompatActivity {
         Intent intent = new Intent(this, Advert.class);
         startActivity(intent);
     }
+    public void onFarmDetail(View view) {
+        Intent intent = new Intent(this, FarmDetail.class);
+        startActivity(intent);
+    }
 }

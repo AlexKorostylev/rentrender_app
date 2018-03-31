@@ -7,6 +7,7 @@
     <string name="edit">Edit render farm</string>
     <string name="contact">Contact us</string>
     <string name="advert">Advertisement</string>
+    <string name="farm_detail">Render farm details</string>
 
     <!-- for MainList activity -->
 
@@ -49,7 +50,8 @@ The owners of farms can edit information about the services many times, also for
     <string name="owner_comment">Owner comment about his farm </string>
     <string name="get_link">Get update link</string>
 
-
+    <!-- for FarmDetail activity -->
+    <string name="country">Country</string>
 
 
 

@@ -29,19 +29,20 @@
         </activity>
         <activity
             android:name=".About"
-            android:label="@string/about">
-        </activity>
+            android:label="@string/about"></activity>
         <activity
             android:name=".Contact"
-            android:label="@string/contact">
-        </activity>
+            android:label="@string/contact"></activity>
         <activity
             android:name=".Advert"
-            android:label="@string/advert">
-        </activity>
+            android:label="@string/advert"></activity>
         <activity
             android:name=".EditFarm"
             android:label="@string/edit">
+        </activity>
+        <activity
+            android:name=".FarmDetail"
+            android:label="@string/farm_detail">
         </activity>
     </application>
 
