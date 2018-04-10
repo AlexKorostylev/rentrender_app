@@ -59,6 +59,9 @@ The owners of farms can edit information about the services many times, also for
     <!-- for FarmDetailActivity -->
     <string name="country">Country</string>
 
+    <!-- for ReadNewRF activity -->
+    <string name="tab">\u0009\u0009\u0009\u0009</string>
+
 
     <!-- for TopFragment  -->
     <string name="title_top">Top fragment \n Here will be the list of all renderfarm around the world</string>
