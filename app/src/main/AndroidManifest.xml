@@ -35,9 +35,10 @@
             android:name=".EditFarm"
             android:label="@string/edit"/>
         <activity
-            android:name=".FarmDetailActivity"
-            android:label="@string/farm_detail"
-            android:parentActivityName=".MainList"/>
+            android:name=".FarmDetail"
+            android:label="@string/farm_detail" />
+        <activity android:name=".AddNewRF" />
+        <activity android:name = ".ReadNewRF"/>
         <activity android:name=".AddRf"/>
     </application>
 
