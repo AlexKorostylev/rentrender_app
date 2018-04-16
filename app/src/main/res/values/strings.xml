@@ -53,5 +53,8 @@ The owners of farms can edit information about the services many times, also for
     <!-- for FarmDetail activity -->
     <string name="country">Country</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Recycle Viev </string>
+
 
 </resources>
