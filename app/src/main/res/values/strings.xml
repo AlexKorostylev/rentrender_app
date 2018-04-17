@@ -53,11 +53,16 @@ The owners of farms can edit information about the services many times, also for
     <!-- for FarmDetail activity -->
     <string name="country">Country</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Recycle Viev </string>
 
     <!-- for TopFragment  -->
     <string name="title_top">Top fragment \n Here will be the list of all renderfarm around the world</string>
+
+    <!-- for SoftFragment  -->
+    <string-array name="farm_soft">
+        <item>Maya</item>
+        <item>3dsMax</item>
+        <item>Nuke</item>
+    </string-array>
 
 
 </resources>
