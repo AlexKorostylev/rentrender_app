@@ -64,5 +64,12 @@ The owners of farms can edit information about the services many times, also for
         <item>Nuke</item>
     </string-array>
 
+    <!-- for CountryFragment  -->
+    <string-array name="farm_country">
+        <item>Russia</item>
+        <item>Barcelona</item>
+        <item>Ukraine</item>
+    </string-array>
+
 
 </resources>
