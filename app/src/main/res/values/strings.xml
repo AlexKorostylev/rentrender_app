@@ -10,6 +10,12 @@
     <string name="farm_detail">Render farm details</string>
 
     <!-- for MainList activity -->
+    <string-array name="titles">
+        <item>Home</item>
+        <item>sort by Soft</item>
+        <item>sort by Coutry</item>
+        <item>sort by Price</item>
+    </string-array>
 
     <!-- for About us activity -->
     <string name="about_us">Who we are?</string>
