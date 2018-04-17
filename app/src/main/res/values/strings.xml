@@ -71,5 +71,12 @@ The owners of farms can edit information about the services many times, also for
         <item>Ukraine</item>
     </string-array>
 
+    <!-- for PriceFragment  -->
+    <string-array name="farm_price">
+        <item>Free</item>
+        <item>Cheap</item>
+        <item>Expensive</item>
+    </string-array>
+
 
 </resources>
