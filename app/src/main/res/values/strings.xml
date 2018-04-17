@@ -56,5 +56,8 @@ The owners of farms can edit information about the services many times, also for
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Recycle Viev </string>
 
+    <!-- for TopFragment  -->
+    <string name="title_top">Top fragment \n Here will be the list of all renderfarm around the world</string>
+
 
 </resources>
