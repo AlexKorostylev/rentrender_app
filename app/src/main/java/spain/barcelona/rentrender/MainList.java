@@ -57,8 +57,11 @@ public class MainList extends Activity {
         ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
         ft.commit();
 
-        //Назначение заголовка панели действий.
+        //Назначение заголовка панели действий (action bar).
         setActionBarTitle(position);
+        //Закрыть выдвижную панель
+        DrawerLayout drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawerLayout.closeDrawer(drawerList);
     }
     private void setActionBarTitle(int position) {
         String title;
