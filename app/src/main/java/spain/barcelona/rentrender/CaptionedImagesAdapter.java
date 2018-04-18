@@ -4,6 +4,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.CardView;
 import android.view.ViewGroup;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.graphics.drawable.Drawable;
@@ -12,6 +13,16 @@ class CaptionedImagesAdapter extends RecyclerView.Adapter<CaptionedImagesAdapter
 
     private String[] captions;
     private int[] imageIds;
+    private Listener listener;
+
+    public static interface Listener {
+        public void onClick(int position);
+    }
+
+    // Активности и фрагменты используют этот метод для регистрации себя в качестве слушателя
+    public void setListener(Listener listener){
+        this.listener = listener;
+    }
 
     //Предоставляет ссылку на представления, используемые в RecyclerView
     public static class ViewHolder extends RecyclerView.ViewHolder {
@@ -38,7 +49,7 @@ class CaptionedImagesAdapter extends RecyclerView.Adapter<CaptionedImagesAdapter
     }
 
     @Override
-    public void onBindViewHolder(ViewHolder holder, int position) {
+    public void onBindViewHolder(ViewHolder holder, final int position) {
 //Заполнение заданного представления данными
         CardView cardView = holder.cardView;
         ImageView imageView = (ImageView)cardView.findViewById(R.id.info_image);
@@ -47,6 +58,16 @@ class CaptionedImagesAdapter extends RecyclerView.Adapter<CaptionedImagesAdapter
         imageView.setContentDescription(captions[position]);
         TextView textView = (TextView)cardView.findViewById(R.id.info_text);
         textView.setText(captions[position]);
+        // При щелчке на CardView вызвать
+        //метод onClick() интерфейса Listener.
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (listener != null) {
+                    listener.onClick(position);
+                }
+            }
+        });
     }
 
 

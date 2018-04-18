@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v7.widget.LinearLayoutManager;
+import android.content.Intent;
 
 public class FarmMaterialFragment extends Fragment {
     @Override
@@ -27,6 +28,16 @@ public class FarmMaterialFragment extends Fragment {
         farmRecycler.setAdapter(adapter);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         farmRecycler.setLayoutManager(layoutManager);
+        // Реализация метода onClick() интерфейса Listener запускает
+        //активность PizzaDetailActivity, передавая ей идентификатор
+        //пиццы, выбранной пользователем.
+        adapter.setListener(new CaptionedImagesAdapter.Listener() {
+            public void onClick(int position) {
+                Intent intent = new Intent(getActivity(), FarmDetailActivity.class);
+                intent.putExtra(FarmDetailActivity.EXTRA_FARMNO, position);
+                getActivity().startActivity(intent);
+            }
+        });
         return farmRecycler;
     }
 }
