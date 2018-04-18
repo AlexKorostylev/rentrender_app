@@ -35,8 +35,9 @@
             android:name=".EditFarm"
             android:label="@string/edit"/>
         <activity
-            android:name=".FarmDetail"
-            android:label="@string/farm_detail"/>
+            android:name=".FarmDetailActivity"
+            android:label="@string/farm_detail"
+            android:parentActivityName=".MainList"/>
         <activity android:name=".AddRf"/>
     </application>
 
