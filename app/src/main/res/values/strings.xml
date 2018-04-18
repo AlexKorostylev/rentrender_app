@@ -56,7 +56,7 @@ The owners of farms can edit information about the services many times, also for
     <string name="owner_comment">Owner comment about his farm </string>
     <string name="get_link">Get update link</string>
 
-    <!-- for FarmDetail activity -->
+    <!-- for FarmDetailActivity -->
     <string name="country">Country</string>
 
 

@@ -3,7 +3,7 @@ package spain.barcelona.rentrender;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class FarmDetail extends AppCompatActivity {
+public class FarmDetailActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
