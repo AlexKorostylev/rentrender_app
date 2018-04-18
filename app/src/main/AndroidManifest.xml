@@ -20,13 +20,8 @@
         </activity>
         <activity
             android:name=".AddFarm"
-            android:label="@string/addfarm">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:label="@string/addfarm"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".About"
             android:label="@string/about" />
@@ -38,11 +33,11 @@
             android:label="@string/advert" />
         <activity
             android:name=".EditFarm"
-            android:label="@string/edit"></activity>
+            android:label="@string/edit"/>
         <activity
             android:name=".FarmDetail"
-            android:label="@string/farm_detail"></activity>
-        <activity android:name=".AddRf"></activity>
+            android:label="@string/farm_detail"/>
+        <activity android:name=".AddRf"/>
     </application>
 
 </manifest>
