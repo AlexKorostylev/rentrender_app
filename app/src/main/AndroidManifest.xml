@@ -39,9 +39,7 @@
             android:label="@string/farm_detail" />
         <activity android:name = ".ReadNewRF"/>
         <activity android:name=".AddRf"/>
-        <activity android:name=".AddNewRF" />
-        <activity android:name=".ReadNewRF" />
-        <activity android:name=".NewFarmCategory"></activity>
+        <activity android:name=".NewFarmCategory"/>
     </application>
 
 </manifest>
