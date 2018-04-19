@@ -4,14 +4,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainList">
 
-    <item android:id="@+id/action_add_rf"
-        android:title="@string/action_add_rf"
+    <item
+        android:id="@+id/action_add_rf"
         android:icon="@drawable/ic_playlist_add_black_18dp"
-        android:orderInCategory="1"
+        android:orderInCategory="10"
+        android:title="@string/action_add_rf"
         app:showAsAction="ifRoom" />
 
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
         android:orderInCategory="100"
-        app:showAsAction="never" />
+        app:showAsAction="collapseActionView" />
 </menu>
