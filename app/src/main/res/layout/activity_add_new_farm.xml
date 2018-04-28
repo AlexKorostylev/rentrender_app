@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".AddFarm">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:paddingTop="8dp"
+        android:textStyle="bold"
+        android:text="@string/owner"/>
+
+    <EditText
+        android:id="@+id/url_farm"
+        android:hint="@string/url"
+        android:inputType="textUri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:ems="14" />
+    <EditText
+        android:id="@+id/owner_mail"
+        android:hint="@string/mail"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:ems="14" />
+    <EditText
+        android:id="@+id/farm_comment"
+        android:hint="@string/comment"
+        android:inputType="text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:ems="14" />
+    <Button
+        android:id="@+id/add_farm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:onClick="onSendMessage"
+        android:text="@string/add_farm" />
+
+</LinearLayout>
