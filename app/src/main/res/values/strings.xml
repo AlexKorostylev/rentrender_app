@@ -34,13 +34,13 @@ The owners of farms can edit information about the services many times, also for
         With a smile to the world, \n
         rentrender.com team.</string>
 
-    <!-- for Add Render Farm activity -->
+    <!-- for Add New Render Farm activity -->
     <string name="owner">
 \t If your are a render farm owner or grateful rentrender.com user who want tell us about new render farm which is absent in our catalog please fill the form below and we will take it into consideration. Thanks in advance!</string>
     <string name="url">Farm URL like example.com</string>
-    <string name="mail">Farm contact mail</string>
+    <string name="fMail">Farm contact mail</string>
     <string name="comment">A few words about the farm</string>
-    <string name="add_farm">Add Render Farm</string>
+    <string name="add_farm">Add Render Farm to DB</string>
 
     <!-- for Contact us activity -->
     <string name="contactmail">
@@ -90,5 +90,30 @@ The owners of farms can edit information about the services many times, also for
     <!-- for Menu_main  -->
     <string name="action_add_rf">Add render farm</string>
     <string name="action_settings">Menu settings</string>
+
+    <!-- for Farm Add Activity -->
+    <string name="general">General information</string>
+    <string name="fName">Render Farm Name</string>
+    <string name="fType">Render Farm Type</string>
+    <string name="fCountry">Location country</string>
+    <string name="specifications">Specifications</string>
+    <string name="fPower">Farm Power. Ex: 9 x Dual Xeon E5-16 cores</string>
+    <string name="fNode">Amount of Node. Example \"9\"</string>
+    <string name="fCPUnode">CPUs per node. Ex: 2</string>
+    <string name="fCPU">CPU description. Ex: Xenon e5-2670</string>
+    <string name="fCores">Cores per node. Ex: 16 cores</string>
+    <string name="fRAM">RAM per node. Ex: 96Gb</string>
+    <string name="fUpload">Upload options. Ex: filestore</string>
+    <string name="fDownload">Download options. Ex: filestore</string>
+    <string name="payment_detail">Payment details</string>
+    <string name="fPay">Payment options. Ex: Skrill, webmoney, paypal</string>
+    <string name="fPrice">Price comment. Ex: 1.5$ per node</string>
+    <string name="fDiscount">Discount options. Ex: 5% from 1000$ </string>
+    <string name="more_detail">More details</string>
+    <string name="fMore">Some comment about farm</string>
+    <string name="soft">Supported software</string>
+    <string name="vrayscatter">vrayscatter</string>
+    <string name="mudbox">mudbox</string>
+
 
 </resources>
