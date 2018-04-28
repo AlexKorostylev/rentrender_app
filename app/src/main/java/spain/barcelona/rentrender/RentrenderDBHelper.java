@@ -22,9 +22,26 @@ class RentrenderDBHelper extends SQLiteOpenHelper {
         // создаем таблицу с полями
         db.execSQL("create table AddNewRFtable ("
                 + "_id integer primary key autoincrement,"
-                + "url text,"
+                + "name text,"
+                + "type text,"
+                + "country text,"
                 + "email text,"
-                + "comment text" + ");");
+                + "url text,"
+                + "extra_inf text,"
+                + "update_date text,"
+                + "more_detail text,"
+                + "power text,"
+                + "node text,"
+                + "cpu_per_node text,"
+                + "cpu_description text,"
+                + "core_per_node text,"
+                + "ram_per_node text,"
+                + "price text,"
+                + "upload_options text,"
+                + "download_options text,"
+                + "payment_options text,"
+                + "discount_options text,"
+                + "icon_soft text" + ");");
     }
 
     @Override
