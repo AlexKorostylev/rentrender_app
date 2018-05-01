@@ -107,7 +107,7 @@ public class FarmAddActivity extends Activity implements View.OnClickListener {
                 cv.put("more_detail", more);
 
                 // вставляем запись и получаем ее ID
-                long rowID = db.insert("AllFarmsTable", null, cv);
+                long rowID = db.insert("allFarmsTable", null, cv);
                 Log.d(LOG_TAG, "row inserted, ID = " + rowID);
 
                 // Переходим к другой активности

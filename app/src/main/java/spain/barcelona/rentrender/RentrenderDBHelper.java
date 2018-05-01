@@ -20,7 +20,7 @@ class RentrenderDBHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         Log.d(LOG_TAG, "--- onCreate database ---");
         // создаем таблицу с полями
-        db.execSQL("create table AllFarmsTable ("
+        db.execSQL("create table allFarmsTable ("
                 + "_id integer primary key autoincrement,"
                 + "name text,"
                 + "type text,"
