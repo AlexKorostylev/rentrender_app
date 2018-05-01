@@ -8,7 +8,7 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:orientation="vertical"
         tools:context=".FarmAddActivity">
@@ -39,11 +39,11 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/f_url"
+            android:id="@+id/fURL"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="20"
-            android:hint="@string/url"
+            android:hint="@string/fURL"
             android:inputType="textUri"
             android:textSize="16sp" />
 
@@ -57,12 +57,28 @@
             android:textSize="16sp" />
 
         <EditText
-            android:id="@+id/fMail"
+            android:id="@+id/fEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="20"
             android:hint="@string/fMail"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/fSupport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="@string/fSupport"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp" />
+        <EditText
+            android:id="@+id/fUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="20"
+            android:hint="@string/fUpdate"
+            android:inputType="textEmailAddress"
             android:textSize="16sp" />
 
         <TextView
@@ -217,13 +233,11 @@
                 android:src="@drawable/ic_mudbox" />
         </LinearLayout>
 
-
         <Button
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="21dp"
-            android:onClick="onSendMessage"
             android:text="@string/add_farm" />
 
     </LinearLayout>
