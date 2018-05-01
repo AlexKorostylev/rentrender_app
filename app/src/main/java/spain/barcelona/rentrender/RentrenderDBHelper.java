@@ -20,28 +20,27 @@ class RentrenderDBHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         Log.d(LOG_TAG, "--- onCreate database ---");
         // создаем таблицу с полями
-        db.execSQL("create table AddNewRFtable ("
+        db.execSQL("create table AllFarmsTable ("
                 + "_id integer primary key autoincrement,"
                 + "name text,"
                 + "type text,"
+                + "url text,"
                 + "country text,"
                 + "email text,"
-                + "url text,"
-                + "extra_inf text,"
+                + "support_inf text,"
                 + "update_date text,"
-                + "more_detail text,"
                 + "power text,"
                 + "node text,"
                 + "cpu_per_node text,"
                 + "cpu_description text,"
                 + "core_per_node text,"
                 + "ram_per_node text,"
-                + "price text,"
                 + "upload_options text,"
                 + "download_options text,"
+                + "price text,"
                 + "payment_options text,"
                 + "discount_options text,"
-                + "icon_soft text" + ");");
+                + "more_detail text" + ");");
     }
 
     @Override
