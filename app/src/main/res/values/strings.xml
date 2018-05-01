@@ -99,10 +99,10 @@ The owners of farms can edit information about the services many times, also for
     <string name="fSupport">Support option. Ex: 24/7. Fully automated</string>
     <string name="fUpdate">Update day. Ex: 1 april 2018</string>
     <string name="specifications">Specifications</string>
-    <string name="fPower">Farm Power. Ex: 9 x Dual Xeon E5-16 cores</string>
+    <string name="fPower">Farm Power. Ex: 9 x Dual Xeon E5&#8211;16 cores</string>
     <string name="fNode">Amount of Node. Example \"9\"</string>
     <string name="fCPUnode">CPUs per node. Ex: 2</string>
-    <string name="fCPU">CPU description. Ex: Xenon e5-2670</string>
+    <string name="fCPU">CPU description. Ex: Xenon e5&#8211;2670</string>
     <string name="fCores">Cores per node. Ex: 16 cores</string>
     <string name="fRAM">RAM per node. Ex: 96Gb</string>
     <string name="fUpload">Upload options. Ex: filestore</string>
