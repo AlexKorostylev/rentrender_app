@@ -23,11 +23,11 @@
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnSpan="2"
-            android:layout_marginTop="7dp"
             android:layout_marginLeft="32dp"
             android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
             android:layout_row="0"
-            android:text="General information"
+            android:text="@string/general"
             android:textStyle="bold" />
 
         <TextView
@@ -38,16 +38,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="1"
             android:gravity="end"
-            android:text="Name" />
+            android:text="@string/rfName" />
 
         <TextView
+            android:id="@+id/rfName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="1"
-            android:text="Kiev RENDER FARM" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -56,34 +57,36 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="2"
             android:gravity="end"
-            android:text="Type" />
+            android:text="@string/rfType" />
 
         <TextView
+            android:id="@+id/rfType"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="2"
-            android:text="Classic render farm" />
+            android:text="" />
 
         <TextView
+            android:text="@string/rfCountry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_gravity="fill_horizontal"
             android:layout_row="3"
-            android:gravity="end"
-            android:text="@string/country" />
+            android:gravity="end" />
 
         <TextView
+            android:id="@+id/rfCountry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="3"
-            android:text="Ukraine" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -92,16 +95,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="4"
             android:gravity="end"
-            android:text="Contact" />
+            android:text="@string/rfEmail" />
 
         <TextView
+            android:id="@+id/rfEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="4"
-            android:text="sten-farm@fex.net" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -110,16 +114,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="5"
             android:gravity="end"
-            android:text="Support options" />
+            android:text="@string/rfSupport" />
 
         <TextView
+            android:id="@+id/rfSupport"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="5"
-            android:text="skype: sten-farm" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -128,16 +133,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="6"
             android:gravity="end"
-            android:text="Website" />
+            android:text="@string/rfWebsite" />
 
         <TextView
+            android:id="@+id/rfURL"
             android:layout_width="210dp"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="6"
-            android:text="http://sten5000-blog.tumblr.com/farm" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -146,27 +152,28 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="7"
             android:gravity="end"
-            android:text="Update" />
+            android:text="@string/Update" />
 
         <TextView
+            android:id="@+id/rfUpdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="7"
-            android:text="March 12, 2018" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnSpan="2"
-            android:layout_marginTop="7dp"
             android:layout_marginLeft="32dp"
             android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
             android:layout_row="8"
-            android:text="Specifications"
+            android:text="@string/specifications"
             android:textStyle="bold" />
 
         <TextView
@@ -176,16 +183,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="9"
             android:gravity="end"
-            android:text="Power description" />
+            android:text="@string/rfPower" />
 
         <TextView
+            android:id="@+id/rfPower"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="9"
-            android:text="9 x Dual Xeon E5-16 cores" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -194,16 +202,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="10"
             android:gravity="end"
-            android:text="Number of nodes" />
+            android:text="@string/rfNode" />
 
         <TextView
+            android:id="@+id/rfNode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="10"
-            android:text="9" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -212,16 +221,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="11"
             android:gravity="end"
-            android:text="CPUs per node" />
+            android:text="@string/rfCPUnode" />
 
         <TextView
+            android:id="@+id/rfCpuPerNode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="11"
-            android:text="2" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -230,16 +240,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="12"
             android:gravity="end"
-            android:text="CPU description" />
+            android:text="@string/rfCPU" />
 
         <TextView
+            android:id="@+id/rfCpuDescription"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="12"
-            android:text="e5-2670" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -248,16 +259,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="13"
             android:gravity="end"
-            android:text="Cores per node" />
+            android:text="@string/rfCores" />
 
         <TextView
+            android:id="@+id/rfCorePerNode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="13"
-            android:text="16 cores" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -266,16 +278,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="14"
             android:gravity="end"
-            android:text="RAM per node" />
+            android:text="@string/rfRAM" />
 
         <TextView
+            android:id="@+id/rfRamPerNode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="14"
-            android:text="96GB" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -284,16 +297,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="15"
             android:gravity="end"
-            android:text="Upload options" />
+            android:text="@string/rfUpload" />
 
         <TextView
+            android:id="@+id/rfUpload"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="15"
-            android:text="filestore" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -302,27 +316,28 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="16"
             android:gravity="end"
-            android:text="Download options" />
+            android:text="@string/rfDownload" />
 
         <TextView
+            android:id="@+id/rfDownload"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="16"
-            android:text="filestore" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnSpan="2"
-            android:layout_marginTop="7dp"
             android:layout_marginLeft="32dp"
             android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
             android:layout_row="17"
-            android:text="Payment details"
+            android:text="@string/payment_detail"
             android:textStyle="bold" />
 
         <TextView
@@ -332,16 +347,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="18"
             android:gravity="end"
-            android:text="Payment options" />
+            android:text="@string/rfPayment" />
 
         <TextView
+            android:id="@+id/rfPayment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="18"
-            android:text="Skrill, webmoney, paypal" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -350,16 +366,17 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="19"
             android:gravity="end"
-            android:text="Price comment" />
+            android:text="@string/rfPrice" />
 
         <TextView
+            android:id="@+id/rfPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="19"
-            android:text="1.5$ per node" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -368,27 +385,28 @@
             android:layout_gravity="fill_horizontal"
             android:layout_row="20"
             android:gravity="end"
-            android:text="Discount options" />
+            android:text="@string/rfDiscount" />
 
         <TextView
+            android:id="@+id/rfDiscount"
             android:layout_width="215dp"
             android:layout_height="wrap_content"
             android:layout_column="1"
             android:layout_marginLeft="16dp"
             android:layout_marginStart="16dp"
             android:layout_row="20"
-            android:text="How we are working! Send us a link to the archive of the scene in Skype, and we will start a render for your instructions!" />
+            android:text="" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnSpan="2"
-            android:layout_marginTop="7dp"
             android:layout_marginLeft="32dp"
             android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
             android:layout_row="21"
-            android:text="Supported software"
+            android:text="@string/soft"
             android:textStyle="bold" />
 
         <TextView
@@ -413,79 +431,70 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginStart="16dp"
                 android:contentDescription="base"
-                android:src="@drawable/vrayscatter" />
+                android:src="@drawable/ic_vrayscatter" />
 
             <ImageView
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginStart="2dp"
-                android:contentDescription="base"
-                android:src="@drawable/iray" />
+                android:src="@drawable/ic_iray" />
 
             <ImageView
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginStart="2dp"
-                android:contentDescription="base"
-                android:src="@drawable/mudbox" />
+                android:src="@drawable/ic_mudbox" />
 
             <ImageView
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginStart="2dp"
-                android:contentDescription="base"
-                android:src="@drawable/arnold" />
+                android:src="@drawable/ic_arnold" />
 
             <ImageView
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginStart="2dp"
-                android:contentDescription="base"
-                android:src="@drawable/vrayscatter" />
+                android:src="@drawable/ic_vrayscatter" />
 
             <ImageView
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginStart="2dp"
-                android:contentDescription="base"
-                android:src="@drawable/iray" />
+                android:src="@drawable/ic_iray" />
 
             <ImageView
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginStart="2dp"
-                android:contentDescription="base"
-                android:src="@drawable/mudbox" />
+                android:src="@drawable/ic_mudbox" />
 
             <ImageView
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginStart="2dp"
-                android:contentDescription="base"
-                android:src="@drawable/arnold" />
+                android:src="@drawable/ic_arnold" />
 
             <ImageView
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginStart="2dp"
-                android:contentDescription="base"
-                android:src="@drawable/vrayscatter" />
+                android:src="@drawable/ic_vrayscatter" />
 
             <ImageView
                 android:layout_width="14dp"
                 android:layout_height="14dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginStart="2dp"
-                android:contentDescription="base"
-                android:src="@drawable/iray" />
+                android:src="@drawable/ic_iray" />
         </LinearLayout>
 
         <TextView
@@ -493,70 +502,21 @@
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnSpan="2"
-            android:layout_marginTop="7dp"
             android:layout_marginLeft="32dp"
             android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
             android:layout_row="23"
-            android:text="More details"
+            android:text="@string/more_detail"
             android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/rfMore"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_column="0"
             android:layout_columnSpan="2"
             android:layout_row="24"
-            android:text="skype: sten-farm 9 units with Dual Xeon E5-2670 16 cores and 96Gb of RAM" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_columnSpan="2"
-            android:layout_marginTop="7dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginStart="32dp"
-            android:layout_row="25"
-            android:text="Clients feedback comments"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_gravity="fill_horizontal"
-            android:layout_row="26"
-            android:gravity="end"
-            android:text="Dmitry" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="1"
-            android:layout_marginLeft="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_row="26"
-            android:text="March 6, 2017 4:25 p.m." />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="0"
-            android:layout_columnSpan="2"
-            android:layout_row="27"
-            android:text="Hello.It will cost about $1250.We can give you 30% discount.Email: info@pearender.com" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_column="1"
-            android:layout_marginTop="10dp"
-            android:layout_row="28"
-            android:gravity="start"
-            android:onClick="onComment"
-            android:text="Add comment" />
-
-
+            android:text="" />
     </GridLayout>
 </ScrollView>
 

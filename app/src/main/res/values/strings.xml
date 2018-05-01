@@ -37,8 +37,8 @@ The owners of farms can edit information about the services many times, also for
     <!-- for Add New Render Farm activity -->
     <string name="owner">
 \t If your are a render farm owner or grateful rentrender.com user who want tell us about new render farm which is absent in our catalog please fill the form below and we will take it into consideration. Thanks in advance!</string>
-    <string name="url">Farm URL like example.com</string>
-    <string name="fMail">Farm contact mail</string>
+    <string name="fURL">Farm URL like example.com</string>
+    <string name="fEmail">Farm contact mail</string>
     <string name="comment">A few words about the farm</string>
     <string name="add_farm">Add Render Farm to DB</string>
 
@@ -96,6 +96,8 @@ The owners of farms can edit information about the services many times, also for
     <string name="fName">Render Farm Name</string>
     <string name="fType">Render Farm Type</string>
     <string name="fCountry">Location country</string>
+    <string name="fSupport">Support option. Ex: 24/7. Fully automated</string>
+    <string name="fUpdate">Update day. Ex: 1 april 2018</string>
     <string name="specifications">Specifications</string>
     <string name="fPower">Farm Power. Ex: 9 x Dual Xeon E5-16 cores</string>
     <string name="fNode">Amount of Node. Example \"9\"</string>
@@ -115,5 +117,25 @@ The owners of farms can edit information about the services many times, also for
     <string name="vrayscatter">vrayscatter</string>
     <string name="mudbox">mudbox</string>
 
+
+    <!-- for Farm Detail Activity -->
+    <string name="rfName">Name</string>
+    <string name="rfType">Type</string>
+    <string name="rfCountry">Country</string>
+    <string name="rfEmail">Email</string>
+    <string name="rfSupport">Support</string>
+    <string name="rfWebsite">Website</string>
+    <string name="Update">Update</string>
+    <string name="rfPower">Power description</string>
+    <string name="rfNode">Number of nodes</string>
+    <string name="rfCPUnode">CPUs per node</string>
+    <string name="rfCPU">CPU description</string>
+    <string name="rfCores">Cores per node</string>
+    <string name="rfRAM">RAM per node</string>
+    <string name="rfUpload">Upload options</string>
+    <string name="rfDownload">Download options</string>
+    <string name="rfPayment">Payment options</string>
+    <string name="rfPrice">Price comment</string>
+    <string name="rfDiscount">Discount options</string>
 
 </resources>
