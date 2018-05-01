@@ -11,7 +11,7 @@ class RentrenderDBHelper extends SQLiteOpenHelper {
     private static final String DB_NAME = "rentrenderDB"; // Имя базы данных
     private static final int DB_VERSION = 1; // Версия базы данных
 
-    private RentrenderDBHelper(Context context) {
+    public RentrenderDBHelper(Context context) {
         // конструктор суперкласса
         super(context, DB_NAME, null, DB_VERSION);
     }
