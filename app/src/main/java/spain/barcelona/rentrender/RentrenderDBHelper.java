@@ -7,11 +7,11 @@ import android.util.Log;
 
 class RentrenderDBHelper extends SQLiteOpenHelper {
 
-    final String LOG_TAG = "myLogs";
+    public final String LOG_TAG = "myLogs";
     private static final String DB_NAME = "rentrenderDB"; // Имя базы данных
     private static final int DB_VERSION = 1; // Версия базы данных
 
-    public RentrenderDBHelper(Context context) {
+    private RentrenderDBHelper(Context context) {
         // конструктор суперкласса
         super(context, DB_NAME, null, DB_VERSION);
     }
