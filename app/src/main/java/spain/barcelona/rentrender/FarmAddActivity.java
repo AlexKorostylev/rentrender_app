@@ -112,6 +112,7 @@ public class FarmAddActivity extends Activity implements View.OnClickListener {
 
                 // Переходим к другой активности
                 Intent intent = new Intent(this, FarmDetailActivity.class);
+                intent.putExtra(FarmDetailActivity.EXTRA_FARMNO, (int) rowID);
                 startActivity(intent);
                 break;
         }
