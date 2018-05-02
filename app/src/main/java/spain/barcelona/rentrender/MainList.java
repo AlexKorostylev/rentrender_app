@@ -15,7 +15,6 @@ import android.content.Intent;
 
 public class MainList extends Activity {
 
-
     private String[] titles;
     private ListView drawerList;
     private DrawerLayout drawerLayout;
@@ -61,7 +60,7 @@ public class MainList extends Activity {
                 fragment = new PriceFragment();
                 break;
             default:
-                fragment = new TopFragment();
+                fragment = new FarmMaterialFragment();
         }
         // Вывести фрагмент с использованием транзакции фрагмента
         FragmentTransaction ft = getFragmentManager().beginTransaction();
@@ -98,10 +97,15 @@ public class MainList extends Activity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.action_add_rf:
-//Код, выполняемый при выборе элемента Create rOder
-                Intent intent = new Intent(this, AddFarm.class);
-                startActivity(intent);
+            case R.id.action_dbRf:
+//при выборе элемента меню "DB render farm"
+                Intent intentDbRf = new Intent(this, FarmAddActivity.class);
+                startActivity(intentDbRf);
+                return true;
+            case R.id.action_newRf:
+//Код, выполняемый при выборе элемента Create New RF
+                Intent intentNewRf = new Intent(this, AddNewFarm.class);
+                startActivity(intentNewRf);
                 return true;
             case R.id.action_settings:
 //Код, выполняемый при выборе элемента Settings

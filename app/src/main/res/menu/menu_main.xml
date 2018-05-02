@@ -5,11 +5,16 @@
     tools:context=".MainList">
 
     <item
-        android:id="@+id/action_add_rf"
+        android:id="@+id/action_dbRf"
+        android:orderInCategory="10"
+        android:title="@string/action_dbRf"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_newRf"
         android:icon="@drawable/ic_playlist_add_black_18dp"
         android:orderInCategory="10"
-        android:title="@string/action_add_rf"
-        app:showAsAction="ifRoom" />
+        android:title="@string/action_newRf"
+        app:showAsAction="never" />
 
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
