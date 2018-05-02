@@ -88,7 +88,8 @@ The owners of farms can edit information about the services many times, also for
     </string-array>
 
     <!-- for Menu_main  -->
-    <string name="action_add_rf">Add render farm</string>
+    <string name="action_dbRf">DB render farm</string>
+    <string name="action_newRf">New render farm</string>
     <string name="action_settings">Menu settings</string>
 
     <!-- for Farm Add Activity -->
