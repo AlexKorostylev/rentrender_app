@@ -39,7 +39,7 @@
             android:layout_marginTop="24dp"
             android:layout_toLeftOf="@+id/info_image"
             android:layout_toStartOf="@+id/info_image"
-            android:text="RebusFarm"
+            android:text=""
             android:textSize="24sp" />
 
         <ImageView
@@ -70,7 +70,7 @@
             android:layout_toLeftOf="@+id/info_image"
             android:layout_toRightOf="@+id/icon_price"
             android:layout_toStartOf="@+id/info_image"
-            android:text="$0.004/Ghz /hour"
+            android:text=""
             android:textSize="14sp" />
 
         <ImageView
@@ -98,7 +98,7 @@
             android:layout_marginTop="4dp"
             android:layout_toEndOf="@+id/icon_power"
             android:layout_toRightOf="@+id/icon_power"
-            android:text="22 500 Ghz + 15 superfast GPU Supermicro server with 10 Ge-Force 10-80 Ti"
+            android:text=""
             android:textSize="14sp" />
 
         <ImageView

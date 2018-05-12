@@ -19,11 +19,22 @@ public class TopFragment extends Fragment {
         for (int i = 0; i < farmNames.length; i++) {
             farmNames[i] = CardFarm.farms[i].getName();
         }
+
+        String[] farmPrice = new String[CardFarm.farms.length];
+        for (int i = 0; i < farmPrice.length; i++) {
+            farmPrice[i] = CardFarm.farms[i].getPrice();
+        }
+
+        String[] farmPower = new String[CardFarm.farms.length];
+        for (int i = 0; i < farmPower.length; i++) {
+            farmPower[i] = CardFarm.farms[i].getPower();
+        }
+
         int[] farmImages = new int[CardFarm.farms.length];
         for (int i = 0; i < farmImages.length; i++) {
             farmImages[i] = CardFarm.farms[i].getImageResourceId();
         }
-        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(farmNames, farmImages);
+        CaptionedImagesAdapter adapter = new CaptionedImagesAdapter(farmNames, farmPrice, farmPower, farmImages);
         farmRecycler.setAdapter(adapter);
         LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
         farmRecycler.setLayoutManager(layoutManager);
