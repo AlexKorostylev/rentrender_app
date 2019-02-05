@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FaDetailActivity">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:gravity="fill_horizontal"
+        android:padding="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_row="0"
+            android:text="@string/general"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/farm_text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="1"
+            android:gravity="end"
+            android:text="@string/rfName" />
+
+        <TextView
+            android:id="@+id/rfName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="1"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="2"
+            android:gravity="end"
+            android:text="@string/rfType" />
+
+        <TextView
+            android:id="@+id/rfType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="2"
+            android:text="" />
+
+        <TextView
+            android:text="@string/rfCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="3"
+            android:gravity="end" />
+
+        <TextView
+            android:id="@+id/rfCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="3"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="4"
+            android:gravity="end"
+            android:text="@string/rfEmail" />
+
+        <TextView
+            android:id="@+id/rfEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="4"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="5"
+            android:gravity="end"
+            android:text="@string/rfSupport" />
+
+        <TextView
+            android:id="@+id/rfSupport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="5"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="6"
+            android:gravity="end"
+            android:text="@string/rfWebsite" />
+
+        <TextView
+            android:id="@+id/rfURL"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="6"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="7"
+            android:gravity="end"
+            android:text="@string/Update" />
+
+        <TextView
+            android:id="@+id/rfUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="7"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_row="8"
+            android:text="@string/specifications"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="9"
+            android:gravity="end"
+            android:text="@string/rfPower" />
+
+        <TextView
+            android:id="@+id/rfPower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="9"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="10"
+            android:gravity="end"
+            android:text="@string/rfNode" />
+
+        <TextView
+            android:id="@+id/rfNode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="10"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="11"
+            android:gravity="end"
+            android:text="@string/rfCPUnode" />
+
+        <TextView
+            android:id="@+id/rfCpuPerNode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="11"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="12"
+            android:gravity="end"
+            android:text="@string/rfCPU" />
+
+        <TextView
+            android:id="@+id/rfCpuDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="12"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="13"
+            android:gravity="end"
+            android:text="@string/rfCores" />
+
+        <TextView
+            android:id="@+id/rfCorePerNode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="13"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="14"
+            android:gravity="end"
+            android:text="@string/rfRAM" />
+
+        <TextView
+            android:id="@+id/rfRamPerNode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="14"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="15"
+            android:gravity="end"
+            android:text="@string/rfUpload" />
+
+        <TextView
+            android:id="@+id/rfUpload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="15"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="16"
+            android:gravity="end"
+            android:text="@string/rfDownload" />
+
+        <TextView
+            android:id="@+id/rfDownload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="16"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_row="17"
+            android:text="@string/payment_detail"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="18"
+            android:gravity="end"
+            android:text="@string/rfPayment" />
+
+        <TextView
+            android:id="@+id/rfPayment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="18"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="19"
+            android:gravity="end"
+            android:text="@string/rfPrice" />
+
+        <TextView
+            android:id="@+id/rfPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="19"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="20"
+            android:gravity="end"
+            android:text="@string/rfDiscount" />
+
+        <TextView
+            android:id="@+id/rfDiscount"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_row="20"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_row="21"
+            android:text="@string/soft"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="22"
+            android:gravity="end"
+            android:text="Renderes" />
+
+        <LinearLayout
+            android:layout_width="322dp"
+            android:layout_column="1"
+            android:layout_gravity="fill_horizontal"
+            android:layout_row="22"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:contentDescription="base"
+                android:src="@drawable/ic_vrayscatter" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_iray" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_mudbox" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_arnold" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_vrayscatter" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_iray" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_mudbox" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_arnold" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_vrayscatter" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_iray" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="7dp"
+            android:layout_row="23"
+            android:text="@string/more_detail"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/rfMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_columnSpan="2"
+            android:layout_row="24"
+            android:text="" />
+    </GridLayout>
+</ScrollView>
+
+
+
+
+
+
